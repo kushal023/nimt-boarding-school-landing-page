@@ -555,7 +555,7 @@ const Gallery = () => (
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[600px]">
         <div className="col-span-2 row-span-2 group relative overflow-hidden rounded-3xl">
-          <img src={imgHero2} alt="Main Campus" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
+          <img src="/src/assets/images/campus.png" alt="Main Campus" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
             <span className="text-white font-bold text-xl uppercase tracking-wider">Main Campus</span>
           </div>
@@ -570,7 +570,7 @@ const Gallery = () => (
           <img src="/src/assets/images/regenerated_image_1779068877872.png" alt="Sports" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
         </div>
         <div className="group relative overflow-hidden rounded-3xl">
-          <img src="/src/assets/images/regenerated_image_1779068887030.png" alt="Labs" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
+          <img src="/src/assets/images/nimt2.png" alt="Labs" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
         </div>
       </div>
     </div>
@@ -728,7 +728,7 @@ const Footer = () => (
         <div className="col-span-1 md:col-span-2">
           <Logo className="mb-8 scale-110 origin-left" />
           <p className="text-gray-400 max-w-sm mb-10 leading-relaxed font-medium">
-            Revolutionizing the boarding experience with a focus on holistic development, academic excellence, and emotional safety.
+            Building a Safe, Disciplined & Future-Ready Boarding Environment Where Students Learn, Grow & Succeed with Confidence.
           </p>
           <div className="flex gap-4">
             <a href="https://www.instagram.com/nimtschool/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-brand hover:border-brand transition-all">
@@ -848,7 +848,7 @@ export default function App() {
               ) : (
                 <>
                   <img 
-                    src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=2070&auto=format&fit=crop" 
+                    src="/src/assets/images/nimt01.png" 
                     alt="Video Placeholder" 
                     className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" 
                     referrerPolicy="no-referrer"
