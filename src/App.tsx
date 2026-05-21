@@ -365,7 +365,7 @@ const SecondHome = () => (
               <p className="font-bold text-[#0041f5] text-sm leading-tight">Nutritious Home-style Meals</p>
             </div>
             <img 
-              src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=2070&auto=format&fit=crop" 
+              src="/src/assets/images/play.png" 
               alt="Dining" 
               className="rounded-3xl shadow-xl w-full h-[300px] object-cover border-4 border-white"
             />
@@ -485,7 +485,7 @@ const CompetitiveSection = () => (
       <div className="relative">
         <div className="absolute inset-0 bg-[#0041f5]/20 blur-[120px] rounded-full -z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=2070&auto=format&fit=crop" 
+          src="/src/assets/images/neet.png" 
           alt="IIT Study" 
           className="rounded-[3rem] shadow-2xl skew-y-2 border-4 border-white/10"
           referrerPolicy="no-referrer"
